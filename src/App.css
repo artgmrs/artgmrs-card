@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+header span {
+  margin: 0.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+}
+
+footer span {
+  margin: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000
+}
