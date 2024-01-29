@@ -4,13 +4,16 @@
   vertical-align: baseline;
   list-style: none;
   border: 0;
-  background-color: black;
+  /* background-color: black; */
 }
 
 header {
   display: flex;
   justify-content: flex-end;
   padding-right: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 header span {
