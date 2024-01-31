@@ -12,7 +12,6 @@ import * as drei from '@react-three/drei'
 import * as fiber from '@react-three/fiber'
 
 // @todo - quebrar em componentes menores
-// @todo - colocar fonte bonitinha
 // @todo - linter
 // @todo - clean up
 function Card() {
@@ -34,19 +33,26 @@ function Card() {
       </ShaderGradientCanvas>
 
       <header>
-        <span><a href="https://instagram.com/artgmrs" target="_blank">Instagram</a></span>
-        <span><a href="https://www.strava.com/athletes/107680351" target="_blank">Strava</a></span>
-        <span><a href="https://github.com/artgmrs" target="_blank">Github</a></span>
-        <span><a href="https://www.linkedin.com/in/artgmrs/" target="_blank">Linkedin</a></span>
+        <div>
+          <span><a href="https://instagram.com/artgmrs" target="_blank">Instagram</a></span>
+          <span><a href="https://www.strava.com/athletes/107680351" target="_blank">Strava</a></span>
+          <span><a href="https://github.com/artgmrs" target="_blank">Github</a></span>
+          <span><a href="https://www.linkedin.com/in/artgmrs/" target="_blank">Linkedin</a></span>
+        </div>
+        <a
+          className="mail-to"
+          href="mailto:artgmrs@outlook.com"
+          target="_blank"
+        >
+          Email (business enquiries only)
+        </a>
       </header>
 
       <footer>
-        <div>
-          <span><a id="name" href="">Arthur Guimarães</a></span>
-        </div>
-        <div>
-          <span><a href="">Software Developer</a></span>
-          <span><a href="">São Paulo</a></span>
+          <h1>Arthur Guimarães</h1>
+        <div className="second-group">
+          <h2>Software Developer</h2>
+          <h2>São Paulo</h2>
         </div>
       </footer>
     </>
