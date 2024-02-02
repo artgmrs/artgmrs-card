@@ -6,17 +6,12 @@ import * as reactSpring from '@react-spring/three'
 import * as drei from '@react-three/drei'
 import * as fiber from '@react-three/fiber'
 
-// @todo - quebrar em componentes menores
-// @todo - linter
-// @todo - clean up
-// @todo - readme
 function Card() {
   return (
     <>
       <ShaderGradientCanvas
         importedFiber={{ ...fiber, ...drei, ...reactSpring }}
         style={{
-          // position: 'absolute',
           top: 0,
           pointerEvents: "none",
           height: "100vh",
@@ -45,7 +40,7 @@ function Card() {
       </header>
 
       <footer>
-          <h1>Arthur Guimarães</h1>
+        <h1>Arthur Guimarães</h1>
         <div className="second-group">
           <h2>Software Developer</h2>
           <h2>São Paulo</h2>
